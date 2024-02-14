@@ -5,7 +5,7 @@ export default function Logo({
   icon,
   inline = true,
   className,
-  src = "/api/logo",
+  src,
 }: {
   small?: boolean;
   icon?: boolean;
@@ -19,12 +19,20 @@ export default function Logo({
         {icon ? (
           <img className="mx-auto w-9 dark:invert" alt="Cal" title="Cal" src={`${src}?type=icon`} />
         ) : (
-          <img
-            className={classNames(small ? "h-4 w-auto" : "h-5 w-auto", "dark:invert")}
-            alt="Cal"
-            title="Cal"
-            src={src}
-          />
+          <>
+            <img
+              className={classNames(small ? "h-12 w-auto" : "h-14 w-auto", "dark:hidden")}
+              alt="Bakklog"
+              title="Bakklog"
+              src="https://res.cloudinary.com/scope-web-llc/image/upload/v1645049239/bakklog/logo.png"
+            />
+            <img
+              className={classNames(small ? "h-12 w-auto" : "h-14 w-auto", "hidden dark:block")}
+              alt="Bakklog"
+              title="Bakklog"
+              src="https://res.cloudinary.com/scope-web-llc/image/upload/v1707212671/logo-white.png"
+            />
+          </>
         )}
       </strong>
     </h3>
