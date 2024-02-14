@@ -22,8 +22,8 @@ const calFont = localFont({
 
 export const generateMetadata = () =>
   prepareRootMetadata({
-    twitterCreator: "@calcom",
-    twitterSite: "@calcom",
+    twitterCreator: "@bakklog",
+    twitterSite: "@bakklog",
     robots: {
       index: false,
       follow: false,
