@@ -18,9 +18,16 @@ const PoweredByCal = ({ logoOnly }: { logoOnly?: boolean }) => {
         {APP_NAME === "Cal.com" || !hasValidLicense ? (
           <>
             <img
-              className="relative -mt-px inline h-[10px] w-auto dark:invert"
-              src="/api/logo"
-              alt="Cal.com Logo"
+              className="h-14 w-auto dark:hidden"
+              alt="Bakklog"
+              title="Bakklog"
+              src="https://res.cloudinary.com/scope-web-llc/image/upload/v1645049239/bakklog/logo.png"
+            />
+            <img
+              className="hidden h-14 w-auto dark:block"
+              alt="Bakklog"
+              title="Bakklog"
+              src="https://res.cloudinary.com/scope-web-llc/image/upload/v1707212671/logo-white.png"
             />
           </>
         ) : (
