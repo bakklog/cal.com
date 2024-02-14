@@ -7,7 +7,7 @@
   "variant": "payment",
   "categories": ["payment"],
   "publisher": "Cal.com",
-  "email": "support@cal.com",
+  "email": "info@bakklog.com",
   "description": "Paypal payment app by Cal.com",
   "extendsFeature": "EventType",
   "isTemplate": false,

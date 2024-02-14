@@ -97,7 +97,7 @@ export const TeamInviteEmail = (
           })}
         </> */}
       </p>
-      {/* 
+      {/*
       {!props.isCalcomMember && (
         <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
           <EmailStep
@@ -156,7 +156,7 @@ export const TeamInviteEmail = (
         <p style={{ fontWeight: 400, margin: 0 }}>
           <>
             {props.language("have_any_questions")}{" "}
-            <a href="mailto:support@cal.com" style={{ color: "#3E3E3E" }} target="_blank" rel="noreferrer">
+            <a href="mailto:info@bakklog.com" style={{ color: "#3E3E3E" }} target="_blank" rel="noreferrer">
               <>{props.language("contact")}</>
             </a>{" "}
             {props.language("our_support_team")}

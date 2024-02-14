@@ -8,7 +8,7 @@
   "variant": "conferencing",
   "categories": ["conferencing"],
   "publisher": "Cal.com Inc",
-  "email": "support@cal.com",
+  "email": "info@bakklog.com",
   "appData": {
     "location": {
       "type": "integrations:{SLUG}_video",
