@@ -31,7 +31,7 @@ const PoweredByCal = ({ logoOnly }: { logoOnly?: boolean }) => {
             />
           </>
         ) : (
-          <span className="text-emphasis font-semibold opacity-50 hover:opacity-100">{APP_NAME}</span>
+          <span className="text-emphasis font-semibold opacity-50 hover:opacity-100">Bakklog</span>
         )}
       </Link>
     </div>
