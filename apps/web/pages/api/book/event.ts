@@ -6,6 +6,8 @@ import { checkRateLimitAndThrowError } from "@calcom/lib/checkRateLimitAndThrowE
 import getIP from "@calcom/lib/getIP";
 import { defaultResponder } from "@calcom/lib/server";
 
+export const maxDuration = 60; // 1 minute
+
 async function handler(req: NextApiRequest & { userId?: number }, res: NextApiResponse) {
   const userIp = getIP(req);
 
